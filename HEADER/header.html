@@ -30,17 +30,21 @@
 
 <body>
 
+  <!-- APARTADO HEADER -->
   <header>
-
+    <!-- APARTADO DE LA LINEA ROJA -->
     <div class="row">
         <div class="col-12 bg-danger">
             <p class="p-2"></p>
         </div>
     </div>
+    <!-- APARTADO DE LA LINEA ROJA FIN-->
+
+    <!-- PRIMER NAV  -->
     <nav class="navbar navbar-expand-lg">
         <div class="container-fluid">
 
-
+            <!-- IMAGEN FACPYA LOGO   -->
             <div class="navbar bg-body-tertiary">
                 <div class="container-fluid">
                     <a class="navbar-brand text-center" href="#">
@@ -50,23 +54,26 @@
                 </div>
 
             </div>
+            <!-- IMAGEN FACPYA FIN   -->
 
 
 
-
+            <!-- BOTON DE CELULAR MODO HAMBURGUESA   -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- BOTON DE CELULAR MODO HAMBURGUESA FIN   -->
 
+
+            <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA   -->
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <!-- UL PARA QUE PASE LOS LINKS HACIA AL FINAL   -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+                <!-- UL PARA QUE PASE LOS LINKS HACIA AL FINAL FIN  -->
 
-
-
-
-                </ul>
+                <!-- CONTENEDOR DONDE PONEMOS LOS LINKS    -->
                 <div class="d-flex">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
 
@@ -84,45 +91,72 @@
 
                     </ul>
                 </div>
+                <!-- CONTENEDOR DONDE PONEMOS LOS LINKS FIN   -->
             </div>
+            <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA  FIN -->
+          
         </div>
     </nav>
+    <!-- PRIMER NAV FIN  -->
 
-
+    <!-- SEGUNDO NAV CATEGORIAS   -->
     <nav class="navbar navbar-expand-lg ">
+        <!-- INICIO CONTENEDOR FLUIDO -->
         <div class="container-fluid">
 
+            <!-- BOTON DE CELULAR MODO HAMBURGUESA   -->
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
+            <!-- BOTON DE CELULAR MODO HAMBURGUESA FIN   -->
 
+            <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA   -->
             <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+
+                <!-- INICIO UL-->
                 <ul class="navbar-nav m-3">
+
+                    <!-- INICIO LI-->
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#"> <i
-                                class="material-symbols-outlined">
-                                home</i>Inicio</a>
+                            class="material-symbols-outlined">
+                            home</i>Inicio
+                        </a>
                     </li>
+                    <!-- FIN LI-->
+
+                    <!-- INICIO LI-->
                     <li class="nav-item">
                         <a class="nav-link" href="#"><i class="material-symbols-outlined"> pets</i>Dante </a>
                     </li>
 
+                    <!-- INICIO LI-->
                     <li class="nav-item dropdown ">
+                        <!-- INICIO DROPDOWN-->
+                        <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <i class="material-symbols-outlined"> styler</i> Ropa
 
                         </a>
+                        <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
+
+                        <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
                         <ul class="dropdown-menu">
                             <div class="dropdown-divider"></div>
                             <li><a class="dropdown-item" href="#">Camisas</a></li>
                             <li><a class="dropdown-item" href="#">Gorras</a></li>
                             <li><a class="dropdown-item" href="#">Playeras</a></li>
                         </ul>
-                    </li>
+                        <!-- FIN UL DE LOS OPCIONES DEL DROPDOWN-->
 
+                        <!-- FIN DROPDOWN-->
+                    </li>
+                    <!-- FIN LI-->
+
+                    <!-- INICIO LI-->
                     <li class="nav-item dropdown ">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
@@ -136,16 +170,22 @@
                             <li><a class="dropdown-item" href="#">Tazas</a></li>
                         </ul>
                     </li>
+                    <!-- FIN LI-->
 
-
+                    <!-- INICIO LI-->
                     <li class="nav-item dropdown ">
+                        <!-- INICIO DROPDOWN-->
+                        <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                             aria-expanded="false">
                             <i class="material-symbols-outlined"> menu_book</i> Libros
 
-
-
                         </a>
+
+                        <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
+
+                        <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
+
                         <ul class="dropdown-menu">
                             <div class="dropdown-divider"></div>
                             <li><a class="dropdown-item" href="#">Administracion</a></li>
@@ -153,18 +193,21 @@
                             <li><a class="dropdown-item" href="#">Derecho</a></li>
                         </ul>
                     </li>
+                    <!-- FIN LI-->
 
 
 
                 </ul>
+                <!-- FIN UL-->
 
 
 
 
             </div>
+            <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA  FIN -->
 
-
-            <nav class="navbar bg-body-tertiary">
+            <!-- INICIO DE FORM DEL APARTADO DE BUSCAR PRODUCTO -->
+            <div class="navbar bg-body-tertiary">
                 <div class="container-fluid">
 
                     <form class="d-flex" role="search">
@@ -173,13 +216,20 @@
                         <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
                     </form>
                 </div>
-            </nav>
+            </div>
+            <!-- FIN DE FORM DEL APARTADO DE BUSCAR PRODUCTO -->
+
+
         </div>
+        <!-- FIN CONTENEDOR FLUIDO -->
+
     </nav>
+    <!-- SEGUNDO NAV CATEGORIAS  FIN  -->
 
 
 
-</header>
+  </header>
+  <!-- APARTADO HEADER FIN-->
 
 
 </body>
