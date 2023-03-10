@@ -23,205 +23,402 @@
 <body class="bg-light">
 
     <!-- APARTADO HEADER -->
-    <header>
-        <!-- APARTADO DE LA LINEA ROJA -->
-        <div class="row">
-            <div class="col-12 bg-danger">
-                <p class="p-2"></p>
-            </div>
+  <header>
+    <!-- APARTADO DE LA LINEA ROJA -->
+    <div class="row">
+        <div class="col-12 bg-danger">
+            <p class="p-2"></p>
         </div>
-        <!-- APARTADO DE LA LINEA ROJA FIN-->
+    </div>
+    <!-- APARTADO DE LA LINEA ROJA FIN-->
 
-        <!-- PRIMER NAV  -->
-        <nav class="navbar navbar-expand-lg">
-            <div class="container-fluid">
+    <!-- PRIMER NAV  -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
 
-                <!-- IMAGEN FACPYA LOGO   -->
-                <div class="navbar bg-body-tertiary">
-                    <div class="container-fluid">
-                        <a class="navbar-brand text-center" href="#">
-                            <img src="/static/img/logo_facpya.png" alt="Bootstrap" width="" height="">
-                        </a>
-
-                    </div>
+            <!-- IMAGEN FACPYA LOGO   -->
+            <div class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+                    <a class="navbar-brand text-center" href="#">
+                        <img src="/static/img/logo_facpya.png" alt="Bootstrap" width="" height="">
+                    </a>
 
                 </div>
-                <!-- IMAGEN FACPYA FIN   -->
 
-
-
-                <!-- BOTON DE CELULAR MODO HAMBURGUESA   -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
-                    aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- BOTON DE CELULAR MODO HAMBURGUESA FIN   -->
-
-
-                <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA   -->
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <!-- UL PARA QUE PASE LOS LINKS HACIA AL FINAL   -->
-                    <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
-                    <!-- UL PARA QUE PASE LOS LINKS HACIA AL FINAL FIN  -->
-
-                    <!-- CONTENEDOR DONDE PONEMOS LOS LINKS    -->
-                    <div class="d-flex">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-
-                            <li class="nav-item">
-                                <a class=" btn " href="/ADMINISTRADOR/CATEGORIA/index.html">Crear Cuenta</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class=" btn  " href="/ADMINISTRADOR/PEDIDOS/pedidos.html">Ingresar</a>
-                            </li>
-
-                            <li class="nav-item">
-                                <a class=" btn  " href="#"><i class="bi bi-cart"></i></a>
-                            </li>
-
-                        </ul>
-                    </div>
-                    <!-- CONTENEDOR DONDE PONEMOS LOS LINKS FIN   -->
-                </div>
-                <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA  FIN -->
-              
             </div>
-        </nav>
-        <!-- PRIMER NAV FIN  -->
+            <!-- IMAGEN FACPYA FIN   -->
 
-        <!-- SEGUNDO NAV CATEGORIAS   -->
-        <nav class="navbar navbar-expand-lg ">
-            <!-- INICIO CONTENEDOR FLUIDO -->
-            <div class="container-fluid">
 
-                <!-- BOTON DE CELULAR MODO HAMBURGUESA   -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <!-- BOTON DE CELULAR MODO HAMBURGUESA FIN   -->
 
-                <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA   -->
-                <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+            <!-- BOTON DE CELULAR MODO HAMBURGUESA   -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- BOTON DE CELULAR MODO HAMBURGUESA FIN   -->
 
-                    <!-- INICIO UL-->
-                    <ul class="navbar-nav m-3">
 
-                        <!-- INICIO LI-->
+            <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA   -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <!-- UL PARA QUE PASE LOS LINKS HACIA AL FINAL   -->
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0"></ul>
+                <!-- UL PARA QUE PASE LOS LINKS HACIA AL FINAL FIN  -->
+
+                <!-- CONTENEDOR DONDE PONEMOS LOS LINKS    -->
+                <div class="d-flex">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#"> <i
-                                class="material-symbols-outlined">
-                                home</i>Inicio
-                            </a>
+                            <a class=" btn " href="/ADMINISTRADOR/CATEGORIA/index.html">Crear Cuenta</a>
                         </li>
-                        <!-- FIN LI-->
 
-                        <!-- INICIO LI-->
                         <li class="nav-item">
-                            <a class="nav-link" href="#"><i class="material-symbols-outlined"> pets</i>Dante </a>
+                            <a class=" btn  " href="/ADMINISTRADOR/PEDIDOS/pedidos.html">Ingresar</a>
                         </li>
 
-                        <!-- INICIO LI-->
-                        <li class="nav-item dropdown ">
-                            <!-- INICIO DROPDOWN-->
-                            <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class="material-symbols-outlined"> styler</i> Ropa
+                        <li class="nav-item  ">
 
-                            </a>
-                            <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
+                            <div class="">
+                                <!-- BTN ACTIVAR MODAL CARRITO     -->
+                                <a class="btn  text-center " id="btnAgregarPrestadorMenu" data-bs-toggle="modal"
+                                    data-bs-target="#myModal" aria-atomic="False">
+                                    <i class="bi bi-cart "></i>
+                                   
+        
+                                </a>
+                            </div>
+                            
+                            <!-- CONTENEDOR DONDE esta el modal carrito    -->
+                            <div class="row">
+                                <div class="modal fade modal-dialog-scrollable" id="myModal" role="dialog">
+                                    <div class="modal-dialog modal-xl modal-dialog-centered">
+            
+                                        <div class="modal-content">
+            
+                                             <!-- BTN CERRAR CARRITO VISTA    -->
+                                            <div class="modal-header">
+                                                <h2 class="modal-title text-black text-center">Carrito</h2>
+                                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                    aria-label="Close">
+                                                </button>
+            
+                                            </div>
+            
+                                            <div class="modal-body">
+            
+            
+            
+                                               
+                                                <!-- CONTENEDOR DONDE EL PRODUCTO CARRITO 1   -->
+                                                <div class="d-flex justify-content-around row">
+                                                    <div class="row vh-100-sm justify-content-left " >
 
-                            <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
-                            <ul class="dropdown-menu">
-                                <div class="dropdown-divider"></div>
-                                <li><a class="dropdown-item" href="#">Camisas</a></li>
-                                <li><a class="dropdown-item" href="#">Gorras</a></li>
-                                <li><a class="dropdown-item" href="#">Playeras</a></li>
-                            </ul>
-                            <!-- FIN UL DE LOS OPCIONES DEL DROPDOWN-->
+                                                        <!-- COL 4 IZQUIERDA IMAGEN   -->
+                                                        <div class="col-4  p-2" >
+                                            
+                                                            <div class="d-flex justify-content-center">
+                                                                <div class="">
+                                                                    <div class="container-fluid">
+                                                                        <div class="navbar-brand text-center " >
+                                                                            <img src="/static/img/dante.PNG" alt="Bootstrap" >
+                                                                        </div>
+                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                           
+                                            
+                                                            
+                                                        </div>
 
-                            <!-- FIN DROPDOWN-->
+                                                        <!-- COL 6 DESCRIPCION PRODUCTO  -->
+                                                        <div class="col-6  p-2" >
+                                        
+                                                          <div class="">
+                                                                <h3 class="text-right">Dante Original</h3>
+                                                                <p>1 x MXN $100.00</p>
+                                                                <p>Chico</p>
+                                                                <p>Gris</p>
+                                                          </div>
+                                                            
+                                                        </div>
+
+                                                        <!-- COL 2 BTN QUITAR PRODUCTO   -->
+                                                        <div class="col-2  p-2" >
+                                                            <a href="">
+                                                                <i class="bi bi-x-circle"></i>
+                                                            </a>
+                                                          
+                                                           
+                                                        </div>
+                                            
+                                                       
+                                            
+                                                   
+                                                    </div>
+            
+                                                </div>
+
+                                                <!-- CONTENEDOR DONDE EL PRODUCTO CARRITO 2 ETC...   -->
+                                                <div class="d-flex justify-content-around row">
+                                                    <div class="row vh-100-sm justify-content-left " >
+
+                                                        <!-- COL 4 IZQUIERDA IMAGEN   -->
+                                                        <div class="col-4  p-2" >
+                                            
+                                                            <div class="d-flex justify-content-center">
+                                                                <div class="">
+                                                                    <div class="container-fluid">
+                                                                        <div class="navbar-brand text-center " >
+                                                                            <img src="/static/img/dante.PNG" alt="Bootstrap" >
+                                                                        </div>
+                                                        
+                                                                    </div>
+                                                                </div>
+                                                            </div>
+                                                           
+                                            
+                                                            
+                                                        </div>
+
+                                                        <!-- COL 6 DESCRIPCION PRODUCTO  -->
+                                                        <div class="col-6  p-2" >
+                                        
+                                                          <div class="">
+                                                                <h3 class="text-right">Dante Original</h3>
+                                                                <p>1 x MXN $100.00</p>
+                                                                <p>Chico</p>
+                                                                <p>Gris</p>
+                                                          </div>
+                                                            
+                                                        </div>
+
+                                                        <!-- COL 2 BTN QUITAR PRODUCTO   -->
+                                                        <div class="col-2  p-2" >
+                                                            <a href="">
+                                                                <i class="bi bi-x-circle"></i>
+                                                            </a>
+                                                          
+                                                           
+                                                        </div>
+                                            
+                                                       
+                                            
+                                                   
+                                                    </div>
+            
+                                                </div>
+
+
+                                                <!-- CONTENEDOR SUBTOTAL PRODUCTOS   -->
+                                                <div class="d-flex justify-content-around row">
+                                                    <div class="row vh-100-sm justify-content-left " >
+
+                                                        <!-- COL 4 DONDE APARECE LA ETIQUETA SUBTOTAL  -->
+                                                        <div class=" col-lg-4  col-sm-4    p-2" >
+                                            
+                                                            <div class="">
+                                                                <h5 class="text-right">SubTotal:</h5>
+                                                            </div>
+                                            
+                                                            
+                                                        </div>
+
+                                                        <!-- COL 6 DE ESPACIO   -->
+                                                        <div class="col-lg-6  col-sm-0  p-2" >
+                                            
+                                                            <div class="">
+                                                                
+                                                          </div>
+                                            
+                                                            
+                                                        </div>
+
+                                                         <!-- COL 2 DEL SUBTOTAL   -->
+                                                        <div class="col-lg-2 col-sm-4  p-2" >
+                                            
+                                                            <div class="">
+                                                               <h5>MNX $ 200.00</h5>
+                                                          </div>
+                                            
+                                                            
+                                                        </div>
+
+                                                  
+                                                       
+                                            
+                                                   
+                                                    </div>
+            
+                                                </div>
+                                             
+                                                
+                                               
+                                            </div>
+                                            
+                                            <!-- CONTENEDOR BOTONES ACCIONES DEL MODAL   -->
+                                            <div class="modal-footer">
+                                                <button type="button" class="btn btn-secondary"
+                                                    data-bs-dismiss="modal">
+                                                    Cerrar</button>
+            
+                                                <asp:Button ID="btnAgregarPrestadorModal" class="btn btn-success" runat="server" Text="Guardar" OnClick="btnAgregarPrestadorModal_Click" />
+                                               <i class="bi bi-wallet"></i>
+            
+            
+                                            </div>
+            
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </li>
-                        <!-- FIN LI-->
 
-                        <!-- INICIO LI-->
-                        <li class="nav-item dropdown ">
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class="material-symbols-outlined"> styler</i> Souvenirs
-
-                            </a>
-                            <ul class="dropdown-menu">
-                                <div class="dropdown-divider"></div>
-                                <li><a class="dropdown-item" href="#">Llaveros</a></li>
-                                <li><a class="dropdown-item" href="#">Plumas</a></li>
-                                <li><a class="dropdown-item" href="#">Tazas</a></li>
-                            </ul>
-                        </li>
-                        <!-- FIN LI-->
-
-                        <!-- INICIO LI-->
-                        <li class="nav-item dropdown ">
-                            <!-- INICIO DROPDOWN-->
-                            <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
-                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                aria-expanded="false">
-                                <i class="material-symbols-outlined"> menu_book</i> Libros
-
-                            </a>
-
-                            <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
-
-                            <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
-
-                            <ul class="dropdown-menu">
-                                <div class="dropdown-divider"></div>
-                                <li><a class="dropdown-item" href="#">Administracion</a></li>
-                                <li><a class="dropdown-item" href="#">Contabilidad</a></li>
-                                <li><a class="dropdown-item" href="#">Derecho</a></li>
-                            </ul>
-                        </li>
-                        <!-- FIN LI-->
-
-
+                      
 
                     </ul>
-                    <!-- FIN UL-->
-
-
-
-
                 </div>
-                <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA  FIN -->
 
-                <!-- INICIO DE FORM DEL APARTADO DE BUSCAR PRODUCTO -->
-                <div class="navbar bg-body-tertiary">
-                    <div class="container-fluid">
+                <!-- CONTENEDOR DONDE PONEMOS LOS LINKS FIN   -->
+            </div>
+            <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA  FIN -->
+          
+        </div>
+    </nav>
+    <!-- PRIMER NAV FIN  -->
 
-                        <form class="d-flex" role="search">
-                            <input class="form-control me-2" type="search" placeholder="Buscar Productos"
-                                aria-label="Search">
-                            <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
-                        </form>
-                    </div>
-                </div>
-                <!-- FIN DE FORM DEL APARTADO DE BUSCAR PRODUCTO -->
+    <!-- SEGUNDO NAV CATEGORIAS   -->
+    <nav class="navbar navbar-expand-lg ">
+        <!-- INICIO CONTENEDOR FLUIDO -->
+        <div class="container-fluid">
+
+            <!-- BOTON DE CELULAR MODO HAMBURGUESA   -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarNavDropdown2" aria-controls="navbarNavDropdown2" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <!-- BOTON DE CELULAR MODO HAMBURGUESA FIN   -->
+
+            <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA   -->
+            <div class="collapse navbar-collapse" id="navbarNavDropdown2">
+
+                <!-- INICIO UL-->
+                <ul class="navbar-nav m-3">
+
+                    <!-- INICIO LI-->
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#"> <i
+                            class="material-symbols-outlined">
+                            home</i>Inicio
+                        </a>
+                    </li>
+                    <!-- FIN LI-->
+
+                    <!-- INICIO LI-->
+                    <li class="nav-item">
+                        <a class="nav-link" href="#"><i class="material-symbols-outlined"> pets</i>Dante </a>
+                    </li>
+
+                    <!-- INICIO LI-->
+                    <li class="nav-item dropdown ">
+                        <!-- INICIO DROPDOWN-->
+                        <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="material-symbols-outlined"> styler</i> Ropa
+
+                        </a>
+                        <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
+
+                        <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
+                        <ul class="dropdown-menu">
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#">Camisas</a></li>
+                            <li><a class="dropdown-item" href="#">Gorras</a></li>
+                            <li><a class="dropdown-item" href="#">Playeras</a></li>
+                        </ul>
+                        <!-- FIN UL DE LOS OPCIONES DEL DROPDOWN-->
+
+                        <!-- FIN DROPDOWN-->
+                    </li>
+                    <!-- FIN LI-->
+
+                    <!-- INICIO LI-->
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="material-symbols-outlined"> styler</i> Souvenirs
+
+                        </a>
+                        <ul class="dropdown-menu">
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#">Llaveros</a></li>
+                            <li><a class="dropdown-item" href="#">Plumas</a></li>
+                            <li><a class="dropdown-item" href="#">Tazas</a></li>
+                        </ul>
+                    </li>
+                    <!-- FIN LI-->
+
+                    <!-- INICIO LI-->
+                    <li class="nav-item dropdown ">
+                        <!-- INICIO DROPDOWN-->
+                        <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN-->
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            <i class="material-symbols-outlined"> menu_book</i> Libros
+
+                        </a>
+
+                        <!-- BTN CELULAR ABRIR/CERRAR DROWPDOWN FIN-->
+
+                        <!-- INICIO UL DE LOS OPCIONES DEL DROPDOWN-->
+
+                        <ul class="dropdown-menu">
+                            <div class="dropdown-divider"></div>
+                            <li><a class="dropdown-item" href="#">Administracion</a></li>
+                            <li><a class="dropdown-item" href="#">Contabilidad</a></li>
+                            <li><a class="dropdown-item" href="#">Derecho</a></li>
+                        </ul>
+                    </li>
+                    <!-- FIN LI-->
+
+
+
+                </ul>
+                <!-- FIN UL-->
+
+
 
 
             </div>
-            <!-- FIN CONTENEDOR FLUIDO -->
+            <!-- DIV DONDE CONTENGO TODO EL NAV DE LA PARTE DE IZQUIERDA  FIN -->
 
-        </nav>
-        <!-- SEGUNDO NAV CATEGORIAS  FIN  -->
+            <!-- INICIO DE FORM DEL APARTADO DE BUSCAR PRODUCTO -->
+            <div class="navbar bg-body-tertiary">
+                <div class="container-fluid">
+
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Buscar Productos"
+                            aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit"><i class="bi bi-search"></i></button>
+                    </form>
+                </div>
+            </div>
+            <!-- FIN DE FORM DEL APARTADO DE BUSCAR PRODUCTO -->
+
+
+        </div>
+        <!-- FIN CONTENEDOR FLUIDO -->
+
+    </nav>
+    <!-- SEGUNDO NAV CATEGORIAS  FIN  -->
 
 
 
-    </header>
-    <!-- APARTADO HEADER FIN-->
+  </header>
+  <!-- APARTADO HEADER FIN-->
 
    
     <main>  
