@@ -1,0 +1,40 @@
+.product__colors ul li{
+    position: relative;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 10;
+}
+.product__colors ul li:nth-child(1){
+    background: #FDD446;
+}
+.product__colors ul li:nth-child(2){
+    background: #F7565D;
+}
+.product__colors ul li:nth-child(3){
+    background: #F9A2DC;
+}
+.product__colors ul li:nth-child(4){
+    background: #6DA2FF;
+}
+.colores__disponibles{
+    list-style-type: none;  
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.select_filtro {
+    width: 15vw;
+}
+.nav-item .nav-link.active{
+    background-color: #F7565D;
+}
+
+.nav-link{
+    color: gray;
+}
+
+.nav-link:hover{
+    color: #F7565D;
+}
