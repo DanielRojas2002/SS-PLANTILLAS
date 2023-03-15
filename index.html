@@ -518,417 +518,137 @@
     <main>  
       <!-- AQUI VA DIEGO  -->
 
-        <!-- Tab-bar -->
-        <!-- Nos permite cambiar entre el contenido en este caso los productos sin necesidad de recargar la pagina -->
-        <div class="m-5">
-            <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">Todo<i class="fa-solid fa-earth-oceania"></i></button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="false">Dante<i class="fa-solid fa-mattress-pillow"></i></button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ropa<i class="fa-solid fa-shirt"></i></button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Souveniers<i class="fa-solid fa-shop-lock"></i></button>
-                </li>
-                <li class="nav-item" role="presentation">
-                    <button class="nav-link" id="pills-books-tab" data-bs-toggle="pill" data-bs-target="#pills-books" type="button" role="tab" aria-controls="pills-books" aria-selected="false">Libros<i class="fa-solid fa-book-bookmark"></i></button>
-                </li>
-                </ul>
-       
-        <!-- Contenido -->
-        <!-- Contenedor padre de todas las tarjetas de productos -->
-        <div class="tab-content" id="pills-tabContent">
-            <!-- Productos segmentados segun su categoria -->
-            <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                <section>
-                    <div class="text-center container py-5">      
-                        <div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4">
-                            <!-- Contenedor de la carta del producto -->
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                                data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://m.media-amazon.com/images/I/81OeC5nqsoL._AC_SX425_.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                        <!-- Boton del carrito -->
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
+   <!-- Tab-bar -->
+    <!-- Nos permite cambiar entre el contenido en este caso los productos sin necesidad de recargar la pagina -->
+    <div class="mt-3">
+        <ul class="nav nav-pills mb-3 d-flex justify-content-center" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <a href="/index.html"><button class="nav-link active" id="pills-all-tab" data-bs-toggle="pill" data-bs-target="#pills-all" type="button" role="tab" aria-controls="pills-all" aria-selected="true">Todo<i class="fa-solid fa-earth-oceania"></i></button></a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="/HOME/dante.html"><button class="nav-link" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="false">Dante<i class="fa-solid fa-mattress-pillow"></i></button></a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="/HOME/ropa.html"><button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Ropa<i class="fa-solid fa-shirt"></i></button></a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="/HOME/souvenirs.html"><button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Souveniers<i class="fa-solid fa-shop-lock"></i></button></a>
+            </li>
+            <li class="nav-item" role="presentation">
+                <a href="/HOME/libros.html"><button class="nav-link" id="pills-books-tab" data-bs-toggle="pill" data-bs-target="#pills-books" type="button" role="tab" aria-controls="pills-books" aria-selected="false">Libros<i class="fa-solid fa-book-bookmark"></i></button></a>
+            </li>
+            </ul>
+    </div>
+    <!-- Filtros-->
+   
+    <!-- Contenido -->
+    <!-- Contenedor padre de todas las tarjetas de productos -->
+    <div class="tab-content" id="pills-tabContent">
+        <!-- Productos segmentados segun su categoria -->
+        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+            <section>
+                <div class="text-center container py-5">      
+                    <div class="row">
+                    <div class="col-lg-4 col-md-12 mb-4">
+                        <!-- Contenedor de la carta del producto -->
+                        <div class="card">
+                        <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                            data-mdb-ripple-color="light">
+                            <img style="height: 20em;" src="https://m.media-amazon.com/images/I/81OeC5nqsoL._AC_SX425_.jpg"
+                            class="w-100" />
+                            <a href="/producto_detalle.html">
+                            <div class="mask">
+                                <div class="d-flex justify-content-end align-items-end h-100">
+                                    <!-- Boton del carrito -->
+                                <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
                                 </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
                             </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Elefante</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Descripcion</p>
-                                </a>
-                                <h6 class="mb-3">$61.99</h6>
+                            <div class="hover-overlay">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                             </div>
-                            </div>
+                            </a>
                         </div>
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                                data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://http2.mlstatic.com/D_NQ_NP_815774-MLM46281290754_062021-W.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
-                                </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Camiseta xs</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Desripcion</p>
-                                </a>
-                                <h6 class="mb-3">$61.99</h6>
-                            </div>
-                            <div class="product__colors">
-                                <p>Colores disponibles</p>
-                                <ul class="colores__disponibles">
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                    <li></li>
-                                </ul>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://elaguacate.store/wp-content/uploads/2020/03/3056-5ab8ea.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
-                                </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Llavero</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Descripcion</p>
-                                </a>
-                                <h6 class="mb-3">
-                                <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
-                                </h6>
-                            </div>
-                            </div>
+                        <div class="card-body">
+                            <a href="" class="text-reset">
+                            <h5 class="card-title mb-3">Elefante</h5>
+                            </a>
+                            <a href="" class="text-reset">
+                            <p>Descripcion</p>
+                            </a>
+                            <h6 class="mb-3">$61.99</h6>
                         </div>
                         </div>
-                    </section>
-            </div>
-            <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab">
-                <section>
-                    <div class="text-center container py-5">      
-                        <div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                                data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://m.media-amazon.com/images/I/81OeC5nqsoL._AC_SX425_.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                        <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                            data-mdb-ripple-color="light">
+                            <img style="height: 20em;" src="https://http2.mlstatic.com/D_NQ_NP_815774-MLM46281290754_062021-W.jpg"
+                            class="w-100" />
+                            <a href="/producto_detalle.html">
+                            <div class="mask">
+                                <div class="d-flex justify-content-end align-items-end h-100">
+                                <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
                                 </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
                             </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Elefante</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Descripcion</p>
-                                </a>
-                                <h6 class="mb-3">$61.99</h6>
+                            <div class="hover-overlay">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                             </div>
+                            </a>
+                        </div>
+                        <div class="card-body">
+                            <a href="" class="text-reset">
+                            <h5 class="card-title mb-3">Camiseta xs</h5>
+                            </a>
+                            <a href="" class="text-reset">
+                            <p>Desripcion</p>
+                            </a>
+                            <h6 class="mb-3">$61.99</h6>
+                        </div>
+                        <div class="product__colors">
+                            <p>Colores disponibles</p>
+                            <ul class="colores__disponibles">
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                                <li></li>
+                            </ul>
                             </div>
                         </div>
-                    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                                data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://http2.mlstatic.com/D_NQ_NP_815774-MLM46281290754_062021-W.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4">
+                        <div class="card">
+                        <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                            <img style="height: 20em;" src="https://elaguacate.store/wp-content/uploads/2020/03/3056-5ab8ea.jpg"
+                            class="w-100" />
+                            <a href="/producto_detalle.html">
+                            <div class="mask">
+                                <div class="d-flex justify-content-end align-items-end h-100">
+                                <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
                                 </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
                             </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                    <h5 class="card-title mb-3">Camiseta xs</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Desripcion</p>
-                                </a>
-                                <h6 class="mb-3">$61.99</h6>
+                            <div class="hover-overlay">
+                                <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
                             </div>
-                            </div>
+                            </a>
                         </div>
-                    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://elaguacate.store/wp-content/uploads/2020/03/3056-5ab8ea.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
-                                </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Llavero</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Descripcion</p>
-                                </a>
-                                <h6 class="mb-3">
-                                <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
-                                </h6>
-                            </div>
-                            </div>
+                        <div class="card-body">
+                            <a href="" class="text-reset">
+                            <h5 class="card-title mb-3">Llavero</h5>
+                            </a>
+                            <a href="" class="text-reset">
+                            <p>Descripcion</p>
+                            </a>
+                            <h6 class="mb-3">
+                            <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
+                            </h6>
                         </div>
                         </div>
-                    </section>
-            </div>
-            <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">
-                <section>
-                    <div class="text-center container py-5">      
-                        <div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                                data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://m.media-amazon.com/images/I/81OeC5nqsoL._AC_SX425_.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
-                                </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Elefante</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Descripcion</p>
-                                </a>
-                                <h6 class="mb-3">$61.99</h6>
-                            </div>
-                            </div>
-                        </div>
-                    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                                data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://http2.mlstatic.com/D_NQ_NP_815774-MLM46281290754_062021-W.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
-                                </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Camiseta xs</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Desripcion</p>
-                                </a>
-                                <h6 class="mb-3">$61.99</h6>
-                            </div>
-                            </div>
-                        </div>
-                    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://elaguacate.store/wp-content/uploads/2020/03/3056-5ab8ea.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
-                                </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Llavero</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Descripcion</p>
-                                </a>
-                                <h6 class="mb-3">
-                                <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
-                                </h6>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </section>              
-            </div>
-            <div class="tab-pane fade" id="pills-books" role="tabpanel" aria-labelledby="pills-books-tab">
-                <section>
-                    <div class="text-center container py-5">      
-                        <div class="row">
-                        <div class="col-lg-4 col-md-12 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                                data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://m.media-amazon.com/images/I/81OeC5nqsoL._AC_SX425_.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
-                                </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Elefante</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Descripcion</p>
-                                </a>
-                                <h6 class="mb-3">$61.99</h6>
-                            </div>
-                            </div>
-                        </div>
-                    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                                data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://http2.mlstatic.com/D_NQ_NP_815774-MLM46281290754_062021-W.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
-                                </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Camiseta xs</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Desripcion</p>
-                                </a>
-                                <h6 class="mb-3">$61.99</h6>
-                            </div>
-                            </div>
-                        </div>
-                    
-                        <div class="col-lg-4 col-md-6 mb-4">
-                            <div class="card">
-                            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
-                                <img style="height: 20em;" src="https://elaguacate.store/wp-content/uploads/2020/03/3056-5ab8ea.jpg"
-                                class="w-100" />
-                                <a href="#!">
-                                <div class="mask">
-                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                    <h5><span class="badge bg-danger ms-2"><i class="fa-solid fa-cart-shopping"></i></span></h5>
-                                    </div>
-                                </div>
-                                <div class="hover-overlay">
-                                    <div class="mask" style="background-color: rgba(251, 251, 251, 0.15);"></div>
-                                </div>
-                                </a>
-                            </div>
-                            <div class="card-body">
-                                <a href="" class="text-reset">
-                                <h5 class="card-title mb-3">Llavero</h5>
-                                </a>
-                                <a href="" class="text-reset">
-                                <p>Descripcion</p>
-                                </a>
-                                <h6 class="mb-3">
-                                <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
-                                </h6>
-                            </div>
-                            </div>
-                        </div>
-                        </div>
-                    </section>
-            </div>
+                    </div>
+                    </div>
+                </section>
         </div>
+    </div>
     </main>
 
 </body>
