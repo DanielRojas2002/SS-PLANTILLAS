@@ -457,9 +457,13 @@
                         <div>
                            
                            
-                            <img class="img-fluid" src="/static/img/sueter.png"  />
-                               
-                        
+                       
+                       
+                            <img src="/static/img/sueter.png" id="grande"  class="img-fluid w-100 h-100" alt="">
+                                
+                         
+                
+                            
                              
 
                      
@@ -495,12 +499,25 @@
                                                     
                                                        
                                                     <div  class="col-12 mt-2">
-                                                        <select name="select" class="form-input w-100 form-control">
-                                                            <option value="selecciona">Selecciona una Medida:</option>
-                                                            <option value="value1">Chica</option>
-                                                            <option value="value2" selected>Mediana</option>
-                                                            <option value="value3">Grande</option>
-                                                        </select>
+                                                       <div class="d-flex  flex-wrap justify-content-around">
+                                                            <div class="mb-2 ">
+                                                                <div>
+                                                                    <button class="btn btn-danger">XS</button>
+                                                                </div>
+                                                            </div>
+
+                                                            <div class="">
+                                                                <button class="btn btn-danger">XM</button>
+                                                            </div>
+
+                                                            <div class="">
+                                                                <button class="btn btn-danger">XL</button>
+                                                            </div>
+
+                                                            <div class="">
+                                                                <button class="btn btn-danger">XXL</button>
+                                                            </div>
+                                                       </div>
                                                     </div>
 
                                                  
@@ -509,11 +526,28 @@
 
                                                     <div class=" col-12 mt-2 product__colors">
                                                         <p>Colores disponibles</p>
-                                                        <ul class="colores__disponibles">
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
-                                                            <li></li>
+                                                        <ul class="colores__disponibles d-flex  flex-wrap justify-content-around">
+                                                            <li  onclick="cambiarImagen1()" class="mb-2" >
+                                                               
+                                                    
+                                                               <img src="/static/img/sueter2.png" hidden   id="1"   alt="">
+                                                               
+                                                                
+                                                            </li>
+                                                           
+                                                          
+                                                            
+                                                            <li onclick="cambiarImagen2()" >
+                                                                <img src="/static/img/sueter3.png" hidden   id="2"   alt="">
+                                                            </li>
+                                                            <li onclick="cambiarImagen3()">
+                                                                <img src="/static/img/sueter.png" hidden   id="3"   alt="">
+                                                            
+                                                            
+                                                            </li>
+                                                            <li onclick="cambiarImagen4()" >
+                                                                <img src="/static/img/libro.png" hidden  id="4"   alt="">
+                                                            </li>
                                                         </ul>
                                                         </div>
                                                     </div>
@@ -594,5 +628,8 @@
   
 </body>
 <!-- FIN BODY  -->
+<script src="/static/js/imagen.js"></script>
+   
+
 
 </html>
