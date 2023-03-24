@@ -18,9 +18,9 @@
   </main>
   <!-- Footer -->
   <!-- Footer -->
-  <button class="btnFooter btn btnSubir"><i class="bi bi-caret-up-fill"></i></button>
-  <footer class="bg-secondary text-center text-white" id="footer">
-    <button class="btnFooter btn btnBajar"><i class="bi bi-caret-down-fill"></i></button>
+  <button id="btnSubir" class="btnFooter btn btnSubir"><i class="bi bi-caret-up-fill"></i></button>
+  <footer class="bg-secondary text-center text-whites" id="footer">
+    <button id="btnBajar" class="btnFooter btn btnBajar"><i class="bi bi-caret-down-fill"></i></button>
     <h1 class="pb-2 pt-1">FACPYA</h1>
     <!-- Grid container -->
     <div class="container">
@@ -79,15 +79,41 @@ footer{
   width: 100%;
 }
 
+.desplegar {
+  animation: desplegar 2s forwards normal;
+  animation-iteration-count: 1;
+  /* animation-name: desplegar;
+  animation-duration: 4s; */
+}
+
+.replegar {
+  animation: desplegar 2s forwards reverse;
+  animation-iteration-count: 1;
+}
+
 .btnFooter{
   position: fixed;
   bottom: 0;
   right: 49%;
 }
+
+@keyframes desplegar {
+  0%   {bottom: -180%;}
+  25%   {bottom: -150%;}
+  50%   {bottom: 0;}
+}
+
+@keyframes replegar {
+  0%   {bottom: 0}
+  25%   {bottom: -150%;}
+  50%   {bottom: -180%;}
+}
 </style>
 
 <script>
+  // Boton para agregar contenido
   let btnAgregar = document.getElementById("btnAgregar");
+  // Seleccion de la etiqueta main
   let main = document.getElementById("main");
   const texto = "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut optio sequi nemo repudiandae delectus repellendus error dolorem ut quas eum minus maiores modi ducimus harum, facere dolor eligendi deleniti illum."
   let contador = 1;
@@ -95,18 +121,26 @@ footer{
     main.innerHTML += `<p>${contador} ${texto}</p><br>`;
     contador += 1;
   });
+  // Seleccion de contenido main
   let footer = document.getElementById("footer");
-  footer.hidden = true;
+  // footer.hidden = true;
+  // Botones para subir y bajar
   let btnSubir = document.querySelector(".btnSubir");
   let btnBajar = document.querySelector(".btnBajar");
+  // añadir animacion
+  // Eventos de los botones
   btnSubir.addEventListener("click", ()=>{
-    footer.hidden = false;
     btnSubir.hidden = true;
-    console.log("si funciona")
+    btnBajar.hidden = false;
+    footer.classList.remove("replegar");
+    footer.classList.add("desplegar");
   });
   btnBajar.addEventListener("click", ()=>{
-    footer.hidden = true;
     btnSubir.hidden = false;
+    btnBajar.hidden = true;
+    footer.classList.remove("desplegar");
+    footer.classList.add("replegar");
+    // footer.hidden = true;
   });
 </script>
 </html>
