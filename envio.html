@@ -16,6 +16,13 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="/static/css/carussel.css">
     <link rel="stylesheet" href="/static/css/botones.css">
+    <link rel="stylesheet" href="/static/css/footer.css">
+
+    
+
+    
+
+    <script src="static/js/footer.js"></script>
     <!-- Importaciones Necesarias Fin-->
 
 </head>
@@ -593,33 +600,36 @@
     <!-- MAIN FIN-->
 
     <!-- Footer -->
-    <footer class="bg-secondary text-center text-white row vh-100-sm justify-content-center ">
-        <h1 class="pb-2 pt-1">FACPYA</h1>
+    <div>
+        <button class="btn btnFooter position-fixed bottom-0 start-50 translate-middle-x" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+            <i class="bi bi-caret-up-fill simboloFlecha"></i>
+        </button>
+        <footer class="collapse bg-secondary" id="collapseExample">
+        <h1 class="pb-2 pt-1 text-center">FACPYA</h1>
         <!-- Grid container -->
         <div class="container">
             <!-- Section: Social media -->
-            <section class="mb-4 row">
-                <!-- Linea izquierda -->
-                <div class="line line-left col-6">
-                    <!-- Facebook -->
-                    <a class="btn btn-outline-light btn-floating m-1 boton-redes w-50" href="#!" role="button"><i class="bi bi-facebook w-100"></i></a>
+            <section class="mb-4 row ">
+            <!-- Linea izquierda -->
+
+                <div class="col-12 ">
+                    <a class="btn btn-outline-light btn-floating m-1 boton-redes w-100" href="#!" role="button"><i class="bi bi-facebook"></i></a>
                 </div>
-            
-                <!-- Linea derecha -->
-                <div class="line line-right col-6">
-                    <!-- Whatsapp -->
-                    <a class="btn btn-outline-light btn-floating m-1 boton-redes w-50" href="#!" role="button"><i class="bi bi-whatsapp"></i></a>
+
+                <div class="col-12">
+                    <a class="btn btn-outline-light btn-floating m-1 boton-redes w-100" href="#!" role="button"><i class="bi bi-whatsapp"></i></a>
                 </div>
+             
             </section>
             <!-- Section: Text -->
-            <section class=" text-center">
-                <p class="">Facultad de Contaduría Pública y Administración</p>
-                <p>Av. Universidad s/n Cd. Universidad C.P. 66455. San Nicolás de los Garza, Nuevo León, México</p>
-                <p>Teléfonos: +52 (81) 8329 4080, (81) 8329 4246, (81) 8329 4247, (81) 8329 4248 y (81) 8329 4249</p>
+            <section class="mb-4">
+                <p class="pb-3 text-light text-center">
+                    Facultad de Contaduría Pública y Administración, UANL© Av. Universidad s/n Cd. Universidad C.P. 66455. San Nicolás de los Garza, Nuevo León, México. Teléfonos: +52 (81) 8329 4080, (81) 8329 4246, (81) 8329 4247, (81) 8329 4248 y (81) 8329 4249.
+                </p>
             </section>
-            <!-- Copyright -->
-        </div>
-    </footer>
+        <!-- Copyright -->
+        </footer>
+    </div>
     <!-- Footer -->
   
 </body>
