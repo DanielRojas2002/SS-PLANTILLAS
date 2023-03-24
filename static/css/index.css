@@ -43,3 +43,9 @@ a {
     text-decoration: none;
 }
 
+.fondo{ 
+    background-image: url("../img/fondo.jpg");
+    
+    background-attachment: fixed;
+
+}
