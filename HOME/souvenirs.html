@@ -447,7 +447,7 @@
 
 
      <!-- MAIN -->
-    <main class="row container-fluid">
+     <main class=" container-fluid">
 
         <!-- BANNER INCIO-->
         <div class="row ">
@@ -461,7 +461,7 @@
 
 
         <!-- BOTON DE CELULAR MODO FILTRO   -->
-        <div class="d-block d-sm-block d-md-none  m-3">
+        <div class=" row d-block d-sm-block d-md-none  m-3">
 
             <!-- BOTON DE CELULAR MODO HAMBURGUESA   -->
             <button class=" btn btn-dark w-100 text-center " type="button" data-bs-toggle="collapse"
@@ -497,7 +497,7 @@
 
                                     <div class="col-12  mb-2 ">
                                         <select class="form-control" aria-label="Default select example">
-                                            <option selected>SubCategoria:</option>
+                                            <option selected>Medida</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
                                             <option value="3">Three</option>
@@ -506,24 +506,14 @@
                                     </div>
 
                                     <div class="col-12  mb-2 ">
-                                        <select class="form-control" aria-label="Default select example">
-                                            <option selected>Medida:</option>
+                                        <select class="form-control mb-2" aria-label="Default select example">
+                                            <option selected>Color</option>
                                             <option value="1">One</option>
                                             <option value="2">Two</option>
                                             <option value="3">Three</option>
                                         </select>
-                                    </div>
 
-                                    <div class="col-12  mb-2 ">
-                                        <select class="form-control" aria-label="Default select example">
-                                            <option selected>Color:</option>
-                                            <option value="1">One</option>
-                                            <option value="2">Two</option>
-                                            <option value="3">Three</option>
-                                        </select>
                                     </div>
-
-                                   
 
                                     <div class="col-12 text-center  ">
                                         <button type="button" class="btn btn-secondary"><i
@@ -551,220 +541,211 @@
         <!-- BOTON DE CELULAR MODO FILTRO  FIN -->
 
         <!-- NAV IZQ WINDOW  -->
+        <div class="row ">
+            <div class="d-none d-sm-none d-md-block col-sm-12 col-xl-2   ">
 
-        <div class="d-none d-sm-none d-md-block col-sm-12 col-xl-2 ">
-
-            <!-- CONTENEDOR FILTROS INCIO-->
-
-
-            <div class=" container py-5">
-                <h4 class="">Filtros:</h4>
+                <!-- CONTENEDOR FILTROS INCIO-->
+                <div class=" ">
+                    
+                    <div class=" container py-5">
+                        <h4 class="">Filtros:</h4>
 
 
-                <!-- Filtros-->
-            </div>
-
-            <!-- Inputs de tipo select para realizar busquedas -->
-
-            <!-- SCROLL Y SIRVE PARA DECIRLE QUE TAMAÑANO HAY SCROLL POR SI SON MUCHOS FILTROS -->
-            <div class="row scroll-y">
-                <form action="">
-                    <div class="col-sm-4  col-xl-12 col-md-12  mb-2 ">
-                        <p class="text-warning text-left">SubCategoria:</p>
-
-                        <hr class="text-warning " style="height: 3px;" />
-                        <select class="form-control" aria-label="Default select example">
-                            <option selected>SubCategoria:</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-
+                        <!-- Filtros-->
                     </div>
 
-                    <div class="col-sm-4  col-xl-12 col-md-12  mb-2 ">
-                        <p class="text-warning text-left">Medida:</p>
+                    <!-- Inputs de tipo select para realizar busquedas -->
 
-                        <hr class="text-warning " style="height: 3px;" />
-                        <select class="form-control" aria-label="Default select example">
-                            <option selected>Medida:</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
+                    <!-- SCROLL Y SIRVE PARA DECIRLE QUE TAMAÑANO HAY SCROLL POR SI SON MUCHOS FILTROS -->
+                    <div class="row scroll-y ">
+                        <form action="">
+                            <div class="col-sm-4  col-xl-12 col-md-12  mb-2 ">
+                                <p class="text-warning text-left">Medida</p>
 
-                    </div>
+                                <hr class="text-warning " style="height: 3px;" />
+                                <select class="form-control mb-2" aria-label="Default select example">
+                                    <option selected>Medida</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
 
-                    <div class="col-sm-4  col-xl-12 col-md-12  mb-2 ">
-                        <p class="text-warning text-left">Color:</p>
+                                <select class="form-control" aria-label="Default select example">
+                                    <option selected>Color</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
 
-                        <hr class="text-warning " style="height: 3px;" />
-                        <select class="form-control" aria-label="Default select example">
-                            <option selected>Color:</option>
-                            <option value="1">One</option>
-                            <option value="2">Two</option>
-                            <option value="3">Three</option>
-                        </select>
-
-                    </div>
-
-
-
-
-                    <div class="col-sm-4  col-xl-12 col-md-12 text-center  ">
-                        <button type="button" class="btn btn-secondary"><i class="fa-solid fa-filter"></i></button>
-                    </div>
-
-                </form>
-
-            </div>
-
-
-
-            <!-- CONTENEDOR FILTROS FIN-->
-
-
-
-        </div>
-
-        <!-- CONTENEDOR MEDIO -->
-        <div class="col-sm-12 col-xl-10 text-center ">
-
-
-            <!-- Contenido -->
-            <!-- Contenedor padre de todas las tarjetas de productos -->
-            <div class="tab-content w-100 h-100" id="pills-tabContent">
-                <!-- Productos segmentados segun su categoria -->
-                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
-                    <section>
-                        <div class="text-center container py-5">
-                            <div class="row ">
-                                <!-- SEPARACION PANTALLA -->
-                                <div class="col-lg-4 col-md-12 mb-4  ">
-                                    <!-- Contenedor de la carta del producto -->
-                                    <div class="card card-flyer">
-                                        <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                                            data-mdb-ripple-color="light">
-                                            <img style="height: 20em;"
-                                                src="/static//img/souvenir.png"
-                                                class="w-100" />
-
-
-                                            <a href="/producto_detalle.html">
-                                                <div class="mask">
-                                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                                        <h5><span class="badge bg-danger ms-2"><i
-                                                                    class="fa-solid fa-cart-shopping"></i></span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="hover-overlay">
-                                                    <div class="mask"
-                                                        style="background-color: rgba(251, 251, 251, 0.15);">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="text-reset">
-                                                <h5 class="card-title mb-3">SOUVENIR 1</h5>
-                                            </div>
-                                            <div href="" class="text-reset">
-                                                <p>Descripcion</p>
-                                            </div>
-                                            <h6 class="mb-3">$61.99</h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- SEPARACION PANTALLA FIN-->
-
-                                <!-- SEPARACION PANTALLA -->
-                                <div class="col-lg-4 col-md-6 mb-4 ">
-                                    <div class="card card-flyer">
-                                        <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
-                                            data-mdb-ripple-color="light">
-                                            <img style="height: 20em;"
-                                                src="/static//img/souvenir.png"
-                                                class="w-100" />
-                                            <a href="/producto_detalle.html">
-                                                <div class="mask">
-                                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                                        <h5><span class="badge bg-danger ms-2"><i
-                                                                    class="fa-solid fa-cart-shopping"></i></span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="hover-overlay">
-                                                    <div class="mask"
-                                                        style="background-color: rgba(251, 251, 251, 0.15);">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="text-reset">
-                                                <h5 class="card-title mb-3">SOUVENIR 2</h5>
-                                            </div>
-                                            <div class="text-reset">
-                                                <p>Desripcion</p>
-                                            </div>
-                                            <h6 class="mb-3">$61.99</h6>
-                                        </div>
-
-                                    </div>
-                                </div>
-                                <!-- SEPARACION PANTALLA FIN-->
-
-                                <!-- SEPARACION PANTALLA -->
-                                <div class="col-lg-4 col-md-6 mb-4 ">
-                                    <div class="card card-flyer">
-                                        <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
-                                            <img style="height: 20em;"
-                                                src="/static//img/souvenir.png"
-                                                class="w-100" />
-                                            <a href="/producto_detalle.html">
-                                                <div class="mask">
-                                                    <div class="d-flex justify-content-end align-items-end h-100">
-                                                        <h5><span class="badge bg-danger ms-2"><i
-                                                                    class="fa-solid fa-cart-shopping"></i></span></h5>
-                                                    </div>
-                                                </div>
-                                                <div class="hover-overlay">
-                                                    <div class="mask"
-                                                        style="background-color: rgba(251, 251, 251, 0.15);">
-                                                    </div>
-                                                </div>
-                                            </a>
-                                        </div>
-                                        <div class="card-body">
-                                            <div class="text-reset">
-                                                <h5 class="card-title mb-3">SOUVENIR 3</h5>
-                                            </div>
-                                            <div class="text-reset">
-                                                <p>Descripcion</p>
-                                            </div>
-                                            <h6 class="mb-3">
-                                                <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
-                                            </h6>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- SEPARACION PANTALLA FIN-->
                             </div>
-                        </div>
-                    </section>
+
+
+
+
+                            <div class="col-sm-4  col-xl-12 col-md-12 text-center  ">
+                                <button type="button" class="btn btn-secondary"><i class="fa-solid fa-filter"></i></button>
+                            </div>
+
+                        </form>
+
+                    </div>
                 </div>
 
-                
+
+
+
+                <!-- CONTENEDOR FILTROS FIN-->
+
 
 
             </div>
 
+            <!-- CONTENEDOR MEDIO -->
+
+            <div class="col-sm-12 col-xl-10 text-center  ">
+
+
+                <!-- Contenido -->
+                <!-- Contenedor padre de todas las tarjetas de productos -->
+                <div class="tab-content w-100 h-100" id="pills-tabContent">
+                    <!-- Productos segmentados segun su categoria -->
+                    <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab">
+                        <section>
+                            <div class="text-center container py-5">
+                                <div class="row ">
+                                    <!-- SEPARACION PANTALLA -->
+                                    <div class="col-lg-4 col-md-12 mb-4  ">
+                                        <!-- Contenedor de la carta del producto -->
+                                        <div class="card card-flyer">
+                                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                                data-mdb-ripple-color="light">
+                                                <img style="height: 20em;"
+                                                    src="/static/img/souvenir.png"
+                                                    class="w-100" />
+
+
+                                                <a href="/producto_detalle.html">
+                                                    <div class="mask">
+                                                        <div class="d-flex justify-content-end align-items-end h-100">
+                                                            <h5><span class="badge bg-danger ms-2"><i
+                                                                        class="fa-solid fa-cart-shopping"></i></span></h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hover-overlay">
+                                                        <div class="mask"
+                                                            style="background-color: rgba(251, 251, 251, 0.15);">
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="text-reset">
+                                                    <h5 class="card-title mb-3">SOUVENIR1</h5>
+                                                </div>
+                                                <div href="" class="text-reset">
+                                                    <p>Descripcion</p>
+                                                </div>
+                                                <h6 class="mb-3">$61.99</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- SEPARACION PANTALLA FIN-->
+
+                                    <!-- SEPARACION PANTALLA -->
+                                    <div class="col-lg-4 col-md-6 mb-4 ">
+                                        <div class="card card-flyer">
+                                            <div class="bg-image hover-zoom ripple ripple-surface ripple-surface-light"
+                                                data-mdb-ripple-color="light">
+                                                <img style="height: 20em;"
+                                                    src="/static/img/souvenir.png"
+                                                    class="w-100" />
+                                                <a href="/producto_detalle.html">
+                                                    <div class="mask">
+                                                        <div class="d-flex justify-content-end align-items-end h-100">
+                                                            <h5><span class="badge bg-danger ms-2"><i
+                                                                        class="fa-solid fa-cart-shopping"></i></span></h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hover-overlay">
+                                                        <div class="mask"
+                                                            style="background-color: rgba(251, 251, 251, 0.15);">
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="text-reset">
+                                                    <h5 class="card-title mb-3">SOUVENIR2</h5>
+                                                </div>
+                                                <div class="text-reset">
+                                                    <p>Desripcion</p>
+                                                </div>
+                                                <h6 class="mb-3">$61.99</h6>
+                                            </div>
+
+                                        </div>
+                                    </div>
+                                    <!-- SEPARACION PANTALLA FIN-->
+
+                                    <!-- SEPARACION PANTALLA -->
+                                    <div class="col-lg-4 col-md-6 mb-4 ">
+                                        <div class="card card-flyer">
+                                            <div class="bg-image hover-zoom ripple" data-mdb-ripple-color="light">
+                                                <img style="height: 20em;"
+                                                    src="/static/img/souvenir.png"
+                                                    class="w-100" />
+                                                <a href="/producto_detalle.html">
+                                                    <div class="mask">
+                                                        <div class="d-flex justify-content-end align-items-end h-100">
+                                                            <h5><span class="badge bg-danger ms-2"><i
+                                                                        class="fa-solid fa-cart-shopping"></i></span></h5>
+                                                        </div>
+                                                    </div>
+                                                    <div class="hover-overlay">
+                                                        <div class="mask"
+                                                            style="background-color: rgba(251, 251, 251, 0.15);">
+                                                        </div>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="card-body">
+                                                <div class="text-reset">
+                                                    <h5 class="card-title mb-3">SOUVENIR3</h5>
+                                                </div>
+                                                <div class="text-reset">
+                                                    <p>Descripcion</p>
+                                                </div>
+                                                <h6 class="mb-3">
+                                                    <s>$61.99</s><strong class="ms-2 text-danger">$50.99</strong>
+                                                </h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- SEPARACION PANTALLA FIN-->
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+
+                   
+
+                </div>
 
 
 
+
+            </div>
         </div>
+    
+
+    
+    
+
+    
 
 
     </main>
+    <!-- MAIN -->
 
     <!-- Footer -->
      <!-- Footer -->
